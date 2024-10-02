@@ -1,3 +1,6 @@
+function click(){
+    alert('Hai cliccatto su "More info"')
+}
 // VERSIONE CODICE PULITA
 function Card({title, description, imgUrl, children, isVisitated}) {
     // if(isVisitated){
@@ -45,6 +48,8 @@ function Card({title, description, imgUrl, children, isVisitated}) {
 
         
     <p className="text-sm md:text-base lg:text-base text-red-500 p-2">{children}</p>
+    <button className="p-2 bg-red-700 rounded-2xl" onClick={click}>More info</button>
+
   </div>
 </div>
     );

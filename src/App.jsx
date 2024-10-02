@@ -75,7 +75,6 @@ function App() {
     isVisitated={true}
   ></Card> */}
 
-
 </div>
     </>
   );

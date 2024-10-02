@@ -24,3 +24,6 @@ Creo `cities` un array di oggetti poi vado a itereare all'interno stampando una 
 La funzione `map` restituisce un nuovo array che conterrà una Card per ciascuna città nell'array cities, con i corrispondenti oggetti impostati in base ai dati della città.
 
 `.filter((city) => city.isVisitated)`  un filtro per mostrare in pagina solo le città visitate.
+
+Usando `onClick` sul bottone e la funzione click, vado a creare un `evento` al click sul button.
+In questo caso si apre un `alert`.

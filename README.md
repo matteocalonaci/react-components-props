@@ -15,4 +15,4 @@ Ogni `Card` creata continene:
  - funzione `map` per itereare nell'array.
  - funzione `filter` per mostrare in pagina la condizioni richiesta.
 
-
+Aggiungo un `evento` al click sul button.
