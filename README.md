@@ -20,3 +20,7 @@ Aggiungo un `evento` al click sul button.
 Gestione dello stato.
 - `useState` per gestire lo stato.
 - uso delle funzioni per alterare lo stato aggiornare l'items array oppure aggiornare la age dell'oggetto user.
+
+`Comunicazione Child to Parent`
+- uso di `props` per passare i dati da figlio a padre.
+

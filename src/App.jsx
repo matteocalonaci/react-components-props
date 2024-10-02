@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import Card from "./components/Card";
+import CardForm from "./components/CardForm";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -11,7 +12,8 @@ function App() {
     console.log(user)
 }
 
-  const cities = [
+
+  const [cities, setCities] = useState ([
     { 
       id:0,
       title: "Tokyo",
@@ -42,10 +44,16 @@ function App() {
     }
 
 
-  ]
+  ])
+  
+  const addCity = (city) => {
+    setCities([...cities, city]);
+  };
 
   return (
     <>
+    <CardForm addCity={addCity}></CardForm>
+
 <div className="flex flex-wrap justify-center">
   {cities
   // .filter((city) => city.isVisitated) //-> aggiungo un filtro per mostrare in pagina solo le città visitate

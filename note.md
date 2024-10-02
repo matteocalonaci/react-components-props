@@ -42,3 +42,17 @@ Definisco una variabile di stato utilizzando l'`useState` hook:
 
 Definisco una funzione `updateUser` che aggiorna l'`user` oggetto di stato con il nuovo oggetto utilizzando setUser
 
+`Comunicazione Child to Parent`
+Creo un componente `CardForm` che al suo stato non può chiamare le funzioni e mandare i dati ad `App.jsx` come prop.
+L'unica cosa che può fare è ricevere prop.
+
+In App.jsx rendo le mie città uno `state` in modo da creare una funzione che ci permette di riprendere tutte le città che già avevamo ed aggiungere la nuova città che arriva.
+
+Prendo prenso il riferimento alla funzione `addCity` e lo passo ad CardForm.
+
+In CardForm
+prendiamo la nostra prop,
+creiamo una funzione `handleClick` con i dati della nuova città.
+Passiamo la funzione al button onClick che la aggiungerà alle nostre cities.
+Essendo le nostre cities uno state viene notificata l'aggiunta della nuiova city.
+Di conseguenza App.jsx viene rireinderizzato con tutte le card  con la nuova city
