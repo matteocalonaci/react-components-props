@@ -4,6 +4,13 @@ import Card from "./components/Card";
 
 function App() {
   const [count, setCount] = useState(0);
+  // aggiorno l'età
+  const [user, setUser] = useState({ name:"dimitri", age:29});
+  const updateUser = ()=>{
+    setUser({...user, age:34});
+    console.log(user)
+}
+
   const cities = [
     { 
       id:0,
@@ -75,6 +82,11 @@ function App() {
     isVisitated={true}
   ></Card> */}
 
+</div>
+<div>
+<button className="p-2 w-20 bg-orange-600 rounded-2xl mx-1" onClick={updateUser}>
+        Add
+    </button>
 </div>
     </>
   );

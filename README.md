@@ -16,3 +16,7 @@ Ogni `Card` creata continene:
  - funzione `filter` per mostrare in pagina la condizioni richiesta.
 
 Aggiungo un `evento` al click sul button.
+
+Gestione dello stato.
+- `useState` per gestire lo stato.
+- uso delle funzioni per alterare lo stato aggiornare l'items array oppure aggiornare la age dell'oggetto user.
