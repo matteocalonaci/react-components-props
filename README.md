@@ -9,4 +9,10 @@ Ogni `Card` creata continene:
 
   Le immagini le ho prese da `https://unsplash.com/it`
 
+ `Rendering condizionale` per visualizzare una cosa piuttosto che un'altra.
+
+ `Rendering di Liste`
+ - funzione `map` per itereare nell'array.
+ - funzione `filter` per mostrare in pagina la condizioni richiesta.
+
 
