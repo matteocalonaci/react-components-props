@@ -27,3 +27,18 @@ La funzione `map` restituisce un nuovo array che conterrà una Card per ciascuna
 
 Usando `onClick` sul bottone e la funzione click, vado a creare un `evento` al click sul button.
 In questo caso si apre un `alert`.
+
+`Gestione dello stato`:
+in Card.jsx
+Definisco due variabili di stato utilizzando l'`useState` hook:
+- count: un intero inizializzato a 0, con una funzione di aggiornamento setCount.
+- items: un array inizializzato a [0, 1, 2], con una funzione di aggiornamento setItems.
+
+Definisco una funzione addItems che aggiorna l' items array di stato aggiungendo un nuovo elemento con la lunghezza corrente dell'array.
+
+in App.jsx
+Definisco una variabile di stato utilizzando l'`useState` hook:
+- user: un oggetto inizializzato a { name: "dimitri", age: 29 }, con una funzione di aggiornamento `setUser` 
+
+Definisco una funzione `updateUser` che aggiorna l'`user` oggetto di stato con il nuovo oggetto utilizzando setUser
+
